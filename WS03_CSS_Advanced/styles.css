@@ -84,19 +84,7 @@ p {
           left: 100px;
         }
       }
-      <ul class="pseudo-list">
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-      </ul>
-      .pseudo-list li:nth-child(odd) {
-        background-color: lightgray;
-      }
       
-      .pseudo-list li:nth-child(even) {
-        background-color: white;
-      }
     .filter-image {
         filter: grayscale(100%);
         transition: filter 0.3s ease;

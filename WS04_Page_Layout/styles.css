@@ -1,0 +1,156 @@
+p {
+      color: rgb(9, 9, 13);
+    }
+    
+    body {
+      background-color: rgb(215, 132, 132);
+    }
+    
+    h1 {.content-box 
+  padding: 20px;
+  margin: 10px;
+  background-color: #80e6e1;
+  border: 1px solid #cd8a8a;
+
+      font-size: 2em;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      border: 1px solid #060000;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    th {
+      background-color: #ab4444;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    label {
+      font-weight: bold;
+    }
+    
+    input[type="text"], input[type="email"] {
+      padding: 10px;
+      border: 10px thick solid #d72323;
+      border-radius: 10px;
+      border-style:hidden
+      
+    }
+    
+    input[type="submit"] {
+      background-color: #cace62;
+      color: rgb(151, 102, 102);
+      padding: 5px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #94bc96;
+    }
+    .transition-button {
+        background-color: lightblue;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .transition-button:hover {
+        background-color: lightcoral;
+      }
+      .animation-box {
+        width: 50px;
+        height: 50px;
+        background-color: lightgreen;
+        position: relative;
+        animation: move 2s infinite alternate;
+      }
+      
+      @keyframes move {
+        from {
+          left: 0;
+        }
+        to {
+          left: 100px;
+        }
+      }
+      
+    .filter-image {
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+      }
+      
+      .filter-image:hover {
+        filter: grayscale(0%);
+      }
+      .pseudo-list li:nth-child(odd) {
+        background-color: rgb(97, 192, 227);
+      }
+      
+      .pseudo-list li:nth-child(even) {
+        background-color: rgb(128, 248, 250);
+      }
+      .quote {
+        position: static;
+        padding-left: 20px;
+        font-style: italic;
+      }
+      
+      .quote::before {
+        content: '“';
+        font-size: 40px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: lightgray;
+      }
+      .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: lightgreen;
+  padding: 20px;
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+.responsive-box {
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .responsive-box {
+    background-color: lightcoral;
+  }
+}
+
+@media (min-width: 601px) {
+  .responsive-box {
+    background-color: lightseagreen;
+  }
+}

@@ -1,0 +1,128 @@
+
+header {
+    
+    color: rgb(225, 163, 152);
+    padding: 20px;
+    text-align: left;
+    text-align: center;
+
+}
+img {
+    border-radius: 70%;
+    margin-right: auto;
+    margin-left: 0px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.6));
+    logo-link{
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+        logo-link:hover {
+            transform: translate(-2px)
+        }  
+        logo-link:active {
+            transform: scale(0.95)
+        } 
+    }
+header {position: sticky;
+top: 0; 
+z-index: 1000;
+display: flex;
+align-items: center;
+padding: 10px 20px;
+
+}
+}
+text {
+    font-family: gill sans, sans-serif;
+    color: #333;
+    margin: 20px;
+}
+{ 
+    margine: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: gill sans, sans-serif;
+}
+
+body {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('./Photos/Background.png');
+    background-size: cover;
+}
+footer{
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    font-size:12px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5px;
+    height: 13px;
+    width: 120px;
+    padding: 5px;
+    background-color: rgba(157, 252, 249, 0.8);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;    
+}
+
+
+    
+    nav ul {
+    list-style-type: none;
+    position: absolute;
+    top: 95px;
+    left: 48%;
+    transform: translateX(-50%);
+    width: 450px;
+    height: 50px;
+    background: rgba(157, 252, 249, 0.8);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px;
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    padding: 0 23px;
+    z-index: 1;
+}
+nav span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 100%;
+    background: linear-gradient( to right, #ff7e5f, #feb47b);
+    border-radius: 8px;
+    transition: transform 0.5s ease;
+}
+nav a:nth-child(1):hover ~ span { left: 0;
+}
+nav a:nth-child(2):hover ~ span { left: 95px;
+}
+nav a:nth-child(3):hover ~ span { left: 189px;
+    width: 110px;
+}
+nav a:nth-child(4):hover ~ span { left: 298px;
+    width: 115px;
+}
+nav a:nth-child(5):hover ~ span { left: 413px;
+    width: 110px;
+}

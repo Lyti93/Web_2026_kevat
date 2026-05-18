@@ -196,12 +196,15 @@ nav ul li:nth-child(4):hover ~ span { left: 350px;
         border-radius: 20%;
    }
 #laitakoodi{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     bottom: -20%;
     left: 40%;
     transform: translateX(-50%);
-
+    gap: 15px;
 }
 
     
@@ -248,6 +251,20 @@ nav ul li:nth-child(4):hover ~ span { left: 350px;
     display: flex;
 }
 
+/* Instagram Logo Styles */
+.instagram-logo {
+    width: 80px;
+    height: 80px;
+    background-image: url('./Photos/background.png');
+    background-size: cover;
+    padding: 12px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.instagram-logo:hover {
+    transform: scale(1.1);
+}
 
 
 

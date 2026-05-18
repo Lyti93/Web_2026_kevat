@@ -55,12 +55,12 @@ text {
 
 
 body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     background-image: url('./Photos/background.png');
     background-size: cover;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
+    
 
 }
 footer{
@@ -85,8 +85,8 @@ footer{
 nav ul {
     list-style-type: none;
     position: absolute;
-    top: 50px;
-    left: 50%;
+    top: -150px;
+    left: 48%;
     transform: translateX(-50%);
     width: 450px;
     height: 50px;

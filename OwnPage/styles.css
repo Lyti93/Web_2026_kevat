@@ -276,7 +276,7 @@ nav ul li:nth-child(4):hover ~ span { left: 350px;
 }
 
 .toggle-label {
-    display: absolute;
+    position: absolute;
     padding: 5px;
     width: 150px;
     align-items: center;
@@ -291,7 +291,6 @@ nav ul li:nth-child(4):hover ~ span { left: 350px;
     margin-bottom: 100px;
     margin-top: 0;
     order: 1;
-    position: relative;
     transition: background 0.2s;
 }
 
@@ -386,7 +385,6 @@ nav ul li:nth-child(4):hover ~ span { left: 350px;
     text-align: left;
 }
 
-/
 @media (min-width: 600px) {
     .slide {
         flex: 0 0 calc(50% - 8px); 

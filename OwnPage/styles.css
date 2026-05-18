@@ -195,14 +195,27 @@ nav ul li:nth-child(4):hover ~ span { left: 350px;
         background-color: rgba(171, 223, 244, 0.466);
         border-radius: 20%;
    }
-#laitakoodi{
-    display: block;
+    #somekuvake
+    {
+    display:flex;
     position: absolute;
-    bottom: -20%;
+    font-size: 50px;
     left: 40%;
     transform: translateX(-50%);
-
+    top:102%;
 }
+    #instateksti
+    {
+        display: flex;
+        position: absolute;
+        left: 17%;
+        transform: translate(%50);
+        font-size:50px ;
+        top: 102%;
+    }
+
+
+
 
     
 #palvelut2 {

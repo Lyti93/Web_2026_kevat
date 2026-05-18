@@ -277,7 +277,7 @@ nav ul li:nth-child(4):hover ~ span { left: 350px;
 }
 
 .toggle-label {
-    display: absolute;
+    display: flex;
     padding: 5px;
     width: 150px;
     align-items: center;
@@ -337,8 +337,8 @@ nav ul li:nth-child(4):hover ~ span { left: 350px;
     z-index: 10;
 }
 
-.zone-left { left: 0; cursor: flex-start; }
-.zone-right { right: 0; cursor: flex-end; }
+.zone-left { left: 0; flex-start: flex-start; }
+.zone-right { right: 0; flex-end: flex-end; }
 
 
 .slider {

@@ -169,10 +169,10 @@ nav ul li:nth-child(4):hover ~ span { left: 350px;
         border-radius: 20%;
     
 }
-    #lopputulos {
+#lopputulos {
     display: flex;
     position: absolute;
-    right: -30%; 
+    left: 80%; 
     top: 60%;
     height: 400px;
     width: 40%;
@@ -181,6 +181,56 @@ nav ul li:nth-child(4):hover ~ span { left: 350px;
         padding: 20px; 
         background-color: rgba(171, 223, 244, 0.466);
         border-radius: 20%;}
+
+#yrityksille {
+    display: flex;
+    position: absolute;
+    left: 75%;
+    top: 60%;
+    height: 350px;  
+    width: 40%;
+        transform: translateX(-60%);
+        align-items: center;
+        padding: 20px; 
+        background-color: rgba(171, 223, 244, 0.466);
+        border-radius: 20%;
+   }
+#laitakoodi{
+    display: block;
+    position: absolute;
+    bottom: -20%;
+    left: 40%;
+    transform: translateX(-50%);
+
+}
+
+    
+#palvelut2 {
+    display: flex;
+    position: absolute;
+    left: 35%; 
+    top: 30%;
+    height: 350px;
+    width: 40%;
+        transform: translateX(-70%);
+        align-items: center;
+        padding: 20px; 
+        background-color: rgba(171, 223, 244, 0.466);
+        border-radius: 20%;}
+#Henkilökuvaus {
+    display: flex;
+    position: absolute;
+    left: 30%;
+    top: 120%;
+    height: 350px;  
+    width: 40%;
+        transform: translateX(-60%);
+        align-items: center;
+        padding: 20px; 
+        background-color: rgba(171, 223, 244, 0.466);
+        border-radius: 20%;
+   }        
+
 
 
 .fun-facts {

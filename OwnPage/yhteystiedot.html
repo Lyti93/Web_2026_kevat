@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <a href="index.html" class="logo-link" aria-label="LCA Media Koti"><img src="./Photos/Logo.jpg" ></a>
+    <a href="index.html" class="logo-link" aria-label="LCA Media Koti"><img class="filter-image" src="./Photos/Logo.jpg" ></a>
+    <link rel="icon" type="image/logo-link" href="./Photos/Logo.jpg">
     <title>L.C.A Media - Yhteystiedot</title>
 </head>
 <body>
+    <section id="taustavari">
+        
     <section id="contact">
         <h2>Yhteystiedot</h2>
-        <p>Email: l.c.a_media@outlook.com</p>
-        <p>Puhelin: 0406631923</p>
+        <h3 class="contact">Email: l.c.a_media@outlook.com</h3>
+        <h4 class="contact1">Puhelin: 0406631923</h4>
     </section>
-    <form>
+    <form id="yhteystiedot">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name"><br><br>
     <label for="email">Email:</label>
@@ -21,7 +24,6 @@
     <label for="message">Message:</label><br>
     <textarea id="message" name="message"></textarea><br><br>
     <input type="submit" value="Submit">
-    
-    </form>
+</form>
 </body>
 </html>

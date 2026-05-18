@@ -85,7 +85,7 @@ footer{
 nav ul {
     list-style-type: none;
     position: absolute;
-    top: -150px;
+    top: 70px;
     left: 48%;
     transform: translateX(-50%);
     width: 450px;

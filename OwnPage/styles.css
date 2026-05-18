@@ -1,4 +1,3 @@
-
 header {
     
     color: rgb(225, 163, 152);
@@ -6,15 +5,7 @@ header {
     text-align: left;
     text-align: center;
 }
-    @media (max-width: 768px) {
-        header, #contact, #yhteystiedot {
-            font-size: 1.5em;
-            padding: 10px;
-            display: flex;
-            position: relative;
-        }
-        
-    }
+    
     .filter-image {
     border-radius: 70%;
     margin-right: auto;
@@ -35,8 +26,9 @@ header {
         position: absolute;
         top: 45px;
         right: 10%;
-        filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.6));
+        filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.6)); 
     }
+    
     
 header {position: sticky;
 top: 0; 
@@ -198,25 +190,21 @@ nav ul li:nth-child(4):hover ~ span { left: 350px;
     #somekuvake
     {
     display:flex;
-    position: absolute;
+    position:absolute;
     font-size: 50px;
     left: 40%;
     transform: translateX(-50%);
-    top:102%;
-}
+    top:102%;}
+
     #instateksti
     {
         display: flex;
         position: absolute;
-        left: 17%;
-        transform: translate(%50);
-        font-size:50px ;
-        top: 102%;
+        left: 25%;
+        transform: translateX(-50%);
+        top: 100%;
+        font-size: 50px;
     }
-
-
-
-
     
 #palvelut2 {
     display: flex;
@@ -399,7 +387,7 @@ nav ul li:nth-child(4):hover ~ span { left: 350px;
     text-align: left;
 }
 
-/
+
 @media (min-width: 600px) {
     .slide {
         flex: 0 0 calc(50% - 8px); 
